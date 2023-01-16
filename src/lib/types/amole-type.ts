@@ -7,7 +7,8 @@ export type AmoleProcessorDataType = {
   } & (
     | {
         type: 'CARD'
-        expirationDate: string
+        expirationDateMM: string
+        expirationDateYY: string
       }
     | {
         type: 'PHONE'

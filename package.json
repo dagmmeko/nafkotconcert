@@ -33,6 +33,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@prisma/client": "^4.8.1"
+		"@prisma/client": "^4.8.1",
+		"got": "^12.5.3"
 	}
 }
